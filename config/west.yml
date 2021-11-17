@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: duffrind
-      url-base: https://github.com/duffrind
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
-      remote: duffrind
-      revision: main
+      remote: caksoylar
+      revision: split-encoder
       import: app/west.yml
   self:
     path: config
